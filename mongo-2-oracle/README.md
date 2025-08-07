@@ -42,9 +42,7 @@ Demo Application
 1. Download the script
 
     ```bash
-    <copy>
     wget https://github.com/oracle-devrel/devo.tutorials/blob/mongo-2-oracle-migration/mongo-2-oracle/src/orclMongoMigration.sh
-    </copy>
     ```
 
 2. Change permissions to make the script executable
