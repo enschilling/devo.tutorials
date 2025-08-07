@@ -24,9 +24,7 @@ Before you begin, ensure your system meets these requirements:
 3.	Make the script executable:
 
     ```bash
-    <copy>
  	chmod +x orclMongoMigration.sh
-    </copy>
     ```
 ### Step 2: Understanding the Script’s Interface
 There are two ways to interact with the script:
@@ -41,9 +39,7 @@ For this runbook, we’ll primarily use the interactive menu for clarity, with c
 1.	Run the script without arguments to access the menu:
 
     ```bash
-    <copy>
  	./orclMongoMigration.sh
-    </copy>
     ```
 
 2.	You’ll see a color-coded menu with several sections

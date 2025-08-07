@@ -48,17 +48,13 @@ Demo Application
 2. Change permissions to make the script executable
 
     ```bash
-    <copy>
     chmod +x orclMongoMigration.sh
-    </copy>
     ```
 
 3. Run the script without arguments to display a user-friendly menu with the following sections:
 
     ```bash
-    <copy>
     ./orclMongoMigration.sh
-    </copy>
     ```
 
     * **Container Management:** - Start/stop Oracle container - Bash and root access - Install utilities and manage volumes - Copy files in and out
@@ -118,27 +114,19 @@ Here’s a typical workflow for demonstrating MongoDB to Oracle migration:
 1.	Start the container:
 
     ```bash
-    <copy>
  	./orclMongoMigration.sh start
-    </copy>
     ```
 2.	Start MongoDB instance:
     ```bash
-    <copy>
  	./orclMongoMigration.sh mongodb
-    </copy>
     ```
 3.	Generate demo data:
     ```bash
-    <copy>
  	./orclMongoMigration.sh demodata
-    </copy>
     ```
 4.	Perform the migration:
     ```bash
-    <copy>
  	./orclMongoMigration.sh migrate
-    </copy>
     ```
 5.	Verify the migrated data in Oracle: (The script will offer to connect you to SQL*Plus after migration)
 
