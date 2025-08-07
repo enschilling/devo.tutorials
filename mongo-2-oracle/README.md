@@ -43,7 +43,7 @@ Demo Application
 
     ```bash
     <copy>
-    wget <placeholder>
+    wget https://github.com/oracle-devrel/devo.tutorials/blob/mongo-2-oracle-migration/mongo-2-oracle/src/orclMongoMigration.sh
     </copy>
     ```
 
@@ -67,6 +67,8 @@ Demo Application
     * **Database Access & Utilities:** - SQL*Plus connections (nolog, user, SYSDBA) - ORDS setup and management - MongoDB API connectivity
     * **MongoDB Operations:** - Start MongoDB instance - mongosh to ORDS or MongoDB
     * **Application & Migration:** - Run registration demo app - Add demo data - Migrate data from MongoDB to Oracle
+
+4. For additional details, please visit the [step-by-step guide](step-by-step-guide.md).
 
 ## Available Commandline Arguments
 
